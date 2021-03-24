@@ -21,9 +21,9 @@ Route::get('/', function () {
 	return view('pages.hola', compact('message'));
 })->name('home');
 
-Route::post('register', 'UserController@register');
+/*Route::post('register', 'UserController@register');
 Route::post('login', 'UserController@authenticate');
 
 Route::group(['middleware' => ['jwt.verify']], function() {
 	/* Rutas privadas solo para JWT */
-});
+// });
