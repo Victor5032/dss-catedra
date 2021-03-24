@@ -18,10 +18,22 @@ class HelloworldController extends Controller
             'mensaje' => "Hola mundo",
             'description' => "Esto es un endpoint",
             'integrantes' => array(
-                'Gregory Alexis Mejía Choriego - MC19039', 
-                'Victor José López Rivera - LR180820', 
-                'Leonardo Manuel Mendoza Rodriguez -  MR190336', 
-                'Emerson Adonay López Maldonado - LM201989', 
+                array( 
+                    'Alumno' => 'Gregory Alexis Mejía Choriego', 
+                    'Carné' => 'MC19039' 
+                ),
+                array( 
+                    'Alumno' => 'Victor José López Rivera', 
+                    'Carné' => 'LR180820' 
+                ),
+                array( 
+                    'Alumno' => 'Leonardo Manuel Mendoza Rodriguez', 
+                    'Carné' => 'MR190336' 
+                ),
+                array( 
+                    'Alumno' => 'Emerson Adonay López Maldonado', 
+                    'Carné' => 'LM201989' 
+                ), 
             )
         );
 
