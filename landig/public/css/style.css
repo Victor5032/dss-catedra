@@ -1,0 +1,11 @@
+.textarea-form {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 125px;
+    resize: unset;
+}
+
+.img-h {
+    height: 430px !important;
+}
+
